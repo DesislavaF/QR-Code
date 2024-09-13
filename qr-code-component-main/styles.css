@@ -1,11 +1,11 @@
-/* Универсални стилове */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Стилове за body */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #d5e1ef; /* Светъл фон */
@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 }
 
-/* Контейнер за картата с QR кода */
+
 .card {
     background-color: white;
     border-radius: 15px;
@@ -26,34 +26,34 @@ body {
     max-width: 320px;
 }
 
-/* Стилове за изображението (QR code) */
+
 .card img {
     width: 100%;
     border-radius: 10px;
 }
 
-/* Заглавие */
+
 h1 {
     font-size: 1.3rem;
     color: #333;
     margin: 20px 0;
 }
 
-/* Текст */
+
 p {
     font-size: 1rem;
     color: #666;
     margin-bottom: 20px;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     margin-top: 20px;
     font-size: 0.85rem;
 }
 
-/* Връзки във footer-а */
+
 footer a {
     color: #3b82f6;
     text-decoration: none;
@@ -63,7 +63,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Респонсивност */
+
 @media (max-width: 600px) {
     .card {
         max-width: 280px;
